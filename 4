@@ -15,19 +15,14 @@ int pr(char elem) /* Function for precedence */
 {
 switch (elem)
  {
- case '#':
- return 0;
- case '(':
- return 1;
+ case '#':return 0;
+ case '(':return 1;
  case '+':
- case '-':
- return 2;
+ case '-':return 2;
  case '*':
  case '/':
- case '%':
- return 3;
- case '^':
- return 4;
+ case '%':return 3;
+ case '^':return 4;
  }
 }
 void main() /* Main Program */
