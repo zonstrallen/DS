@@ -76,10 +76,8 @@ void main()
                 scanf("%d",&choice);
                 switch (choice)
                 {
-                    case 1:	linear_prob(a);
-                            break;
-                    case 2:	display(a);
-                            break;
+                    case 1:	linear_prob(a);break;
+                    case 2:	display(a);break;
                     case 3: return;
                     default: printf("\n Invalid Choice");
                 } // end of switch
